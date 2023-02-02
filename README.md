@@ -48,12 +48,31 @@ A média das imagens foi calculada através da soma acumulada das imagens dentro
 ## Seccionamento Vertical
 À esquerda, temos uma soma das colunas de uma imagem de SLIM. Enquanto que, à direita, temos a soma das colunas da média de 15 imagens de SLIM.
 <p align="center">
-<img src = "https://user-images.githubusercontent.com/86500603/216178273-64b6b098-0292-458b-a475-0fe3550ac7b9.png" width = 350>
-<img src = "https://user-images.githubusercontent.com/86500603/216178519-f12f455b-7415-46f3-a43b-a042e7e128c3.png" width = 350>
+<img src = "https://user-images.githubusercontent.com/86500603/216178273-64b6b098-0292-458b-a475-0fe3550ac7b9.png" height = 300>
+<img src = "https://user-images.githubusercontent.com/86500603/216178519-f12f455b-7415-46f3-a43b-a042e7e128c3.png" height = 300>
 </p>
 Comparando as imagens, podemos observar que a distribuição da energia é muito mais espalhada na imagem à esquerda, enquanto que à direita os pontos estão mais concentrados e mais bem distribuídos. Os pequenos picos presentes nas áreas fora da demarcação pontilhada são causados pela reflexão da luz, causadas pelas paredes da cubeta.
 <br><br>
-As demarcações MA e MB foram escolhidas de forma visual, assim delimitando as posições em que o Seccionamento Vertical seria realizado.
+As demarcações MA e MB foram escolhidas após inspeção visual, assim delimitando as posições em que o Seccionamento Vertical limitaria o feixe para uma região dentro da cubeta. À esquerda, podemos observar a soma das colunas da média de 15 imagens de SLIM. Enquanto que, à direita, podemos observar a região de corte na imagem média das 15 imagens de SLIM.<br><br>
+<p align="center">
+<img src = "https://user-images.githubusercontent.com/86500603/216178519-f12f455b-7415-46f3-a43b-a042e7e128c3.png" height = 300>
+<img src = "https://user-images.githubusercontent.com/86500603/216183185-fcf4c212-21c4-4a52-9b07-f15337b8aae9.png" height = 300>
+</p>
+<br>
+Ao final do procedimento de , obtivemos a seguinte imagem:
+<br><br>
+<p align="center">
+<img src = "https://user-images.githubusercontent.com/86500603/216200654-0cf875f3-977c-4c17-a7d8-e6f836bd5f86.png" height = 300>
+</p>
 
+## Seccionamento Horizontal
+Dando sequência ao Seccionamento Vertical, temos o Seccionamento Horizontal. Para isto, a lógica é similar ao seccionamento realizado anteriormente, apenas realizando a inversão do eixo de soma (antes somamos os elementos fixando as colunas, agora somaremos os elementos fixando as linhas).<br>
+À esquerda, temos o Seccionamento Vertical da média das imagens. Enquanto que, à direita, temos a soma das linhas da média das imagens.
+<p align="center">
+<img src = "https://user-images.githubusercontent.com/86500603/216213263-87008492-23e5-4fe0-8410-649c8709ece7.png" height = 300>
+<img src = "https://user-images.githubusercontent.com/86500603/216213639-fd242340-2273-4b73-be62-57daeb1a6d3e.png" height = 300>
+</p>
+<br>
+Com isso, é possível visualizarmos o centro do feixe de laser, indicado com o pontilhado em rosa. Além disso, podemos também determinar a região de Seccionamento Horizontal, MD, que neste caso foi também determinada após inspeção visual.
 
 
