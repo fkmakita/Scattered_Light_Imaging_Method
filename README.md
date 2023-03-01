@@ -117,6 +117,15 @@ No código abaixo, podemos ver os valores que melhor otimizam a função input (
 <p align="center">
 <img src = "https://user-images.githubusercontent.com/86500603/216242650-fba13559-b201-4cb2-993e-6a70f4aedc7e.png" height = 300>
 </p>
+<br>
 
+## Determinação da perfil de intensidade transversal
+Retornando para a imagem seccionada, demonstrada à esquerda, iremos agora verificar a distribuição de sua intensidade ao longo do eixo transversal em y. Para isto, iremos escolher uma posição arbitrária em z e iremos fazer o plot da distribuição em função da intensidade. No caso, utilizamos um z = 150 pixels. À direita, temos a distribuição da intensidade para a posição escolhida em função do eixo transversal y, já com o ajuste de Gaussiana utilizando o método de curve_fit(), similar à etapa anterior.
+<br>
 
-
+<p align="center">
+<img src = "https://user-images.githubusercontent.com/86500603/222020509-946a7d8e-adc5-4ad3-aef8-2983a0ed9269.png" height = 250>
+<img src = "https://user-images.githubusercontent.com/86500603/222021251-c31a7661-b7ce-41db-a666-9bae02869be2.png" height = 250>
+</p>
+<br><br>
+Com isso, finalizamos a explicação do algoritmo desenvolvido para o treinamento de processamento das imagens do SLIM. A sequência do código é sobre os testes realizados em imagens de saliva sintética, conforme detalho em meu trabalho escrito. Como as imagens obtidas no experimento prático caracterizaram um espalhamento de pouca intensidade ("espalhamento fraco"), sugerimos a adição de nanopartículas de ouro à amostra de saliva, assim visando uma intensificação do efeito de espalhamento da luz.
